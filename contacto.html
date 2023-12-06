@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>puzzle.co/Contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+
+<body background="imagenes/white-background-with-abstract-puzzle-shape-decoration-free-vectorreves.jpg">
+   
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="" alt=""></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="index.html">Inicio</a> </li>
+                    <li> <a href="nuestrasMarcas.html">Nuestras Marcas</a> </li>
+                    <li> <a href="contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-img">
+            <img src="imagenes/logo + nombre 2.png">
+        </div>
+        
+    </header>
+
+<h1>Complete sus datos y nuestro equipo se pondra en contacto</h1>
+
+
+    <form action="pagina-destino.html" method="post" autocomplete="off" id="formulario_ppal">
+        <p>
+            Nombre
+            <input type="nom" name="nombre" id="nombre" pattern="([0-9]{10})"placeholder="ingrese su nombre" >
+        </p>
+        
+         <p>
+            Apellido
+            <input type="ape" name="apellido" id="apellido" pattern="([0-9]{10})" placeholder="ingrese su apellido">
+        </p>
+        
+        
+        <p>
+           <label>Masculino<input type="radio" name="sexo" value="m" /><label>
+           <label>Femenino<input type="radio" name="sexo" value="f" /></label><br>
+        </p>
+      
+       
+        
+        <p>
+            email
+            <input type="email" name="email" id="email" multiple required placeholder="ingrese su email">
+        </p> 
+        
+        <p>
+            Celular
+            <input type="tel" name="telefono" id="telefono" pattern="([0-9]{10})" placeholder="ingrese su Celular" >
+        </p>
+        
+    
+        <p>
+            Fecha de nacimiento
+            <input type="date" name="fecnac" id="fecnac" value="1963-01-23" >
+        </p>
+      
+      
+    
+    
+   
+    
+    <p>
+        Pais
+        <select name="pais">
+            <option value="xx" > Elija un pais ...</option>
+          <optgroup label="América">
+            <option value="argentina"> Argentina</option>
+            <option value="mexico"> México</option>
+            <option value="colombia"> Colombia</option>
+          </optgroup>
+          <optgroup label="Europa" disabled>
+            <option value="españa"> España</option>
+            <option value="francia"> Francia</option>
+            <option value="italia"> Italia</option>
+          </optgroup>
+          </select>
+    </p>
+    
+        </p>
+        
+      
+            En caso de querer formar parte de la empresa, aqui puedes dejarnos tu cv! -->
+            <input type="file" name="archivo" id="archivo" accept=".jpg, .jpeg, .png">
+        </p>
+        
+        <p>
+            En caso de querer dejarnos tu lista de precios, aqui puedes adjuntarla! -->
+            <input type="file" name="archivo" id="archivo" accept=".jpg, .jpeg, .png">
+        </p>
+    
+        <p>
+           <h4> Dejanos un comentarios</h4>
+            <textarea name="comentarios" id="comentarios" cols="50" rows="5" maxlength="200"></textarea>
+        </p>
+        
+        <p>
+            <input type="reset" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </p>
+        
+   
+        
+        <p>
+            <input type="submit"  formnovalidate="formnovalidate" value="Guardar sin validacion">
+            <input type="submit" value="Guardar con validacion">
+        </p>
+    </form>
+
+
+    <p>
+        <button form="formulario_ppal" formaction="#" formmethod="post">Guardar (fuera del formulario)</button>
+        </p>
+
+<footer class="footer container ">
+    
+        
+    <h4>©Todos los derechos reservados</h4>
+</footer>
+</body>
+
+
+</html>
