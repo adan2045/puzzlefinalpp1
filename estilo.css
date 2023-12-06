@@ -17,7 +17,14 @@ a  {
     color: #444444;
 }
 
-
+.btn-wsp{
+position: fixed;
+width: 55px;
+height: 55px;
+line-height: 55px;
+bottom: 30px;
+right: 30px;
+}
 .container {
     max-width: 100%;
     margin: 0 auto  ;
@@ -166,7 +173,7 @@ text-transform: uppercase;
 
 .footer img{
     width: 300px;
-    height: 100px; 
+    height: 300px; 
 }
 .footer h4 {
     background-color: black;
