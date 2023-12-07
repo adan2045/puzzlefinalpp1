@@ -127,7 +127,7 @@ li {
     
 }
 .header-img img {
-    width: 800px;
+    width: 600px;
 }
 h2 {
     font-size: 50px;
@@ -224,11 +224,12 @@ text-transform: uppercase;
         margin-top: 20%;
     }
     .header-img{
-        width: 65%;
+        width: 10%;
         text-align: right;
     }
+    /* acomodar el header img img para que no se borre el logo*/
     .header-img img{
-        width: 0%;
+        width: 250%;
     }
     h2{
         font-size: 50px;
